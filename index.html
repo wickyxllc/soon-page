@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; base-uri 'self'; form-action 'none'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'none'; object-src 'none'"
+    />
+    <meta name="referrer" content="no-referrer" />
+    <meta
+      name="description"
+      content="WickyX is coming soon. A next-generation social experience for creators, friends, and communities."
+    />
+    <meta name="theme-color" content="#02040a" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="WickyX" />
+    <meta property="og:title" content="WickyX — Coming Soon" />
+    <meta
+      property="og:description"
+      content="A new social experience is almost here."
+    />
+    <meta
+      property="og:image"
+      content="https://wickyx.com/assets/wickyx-icon.png"
+    />
+    <meta property="og:url" content="https://wickyx.com/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="WickyX — Coming Soon" />
+    <meta
+      name="twitter:description"
+      content="A new social experience is almost here."
+    />
+    <meta
+      name="twitter:image"
+      content="https://wickyx.com/assets/wickyx-icon.png"
+    />
+    <link rel="canonical" href="https://wickyx.com/" />
+    <link rel="icon" type="image/png" href="./assets/wickyx-icon.png" />
+    <link rel="apple-touch-icon" href="./assets/wickyx-icon.png" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>WickyX - Coming Soon</title>
+  </head>
+  <body class="is-loading">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="cinema" aria-hidden="true">
+      <div class="cinema__navy"></div>
+      <div class="cinema__gold"></div>
+      <div class="cinema__particles" id="particles"></div>
+    </div>
+
+    <main class="launch" id="main">
+      <section class="launch__content" aria-labelledby="launch-title">
+        <div class="mark">
+          <div class="mark__halo"></div>
+          <img
+            class="mark__image"
+            src="./assets/landing.png"
+            width="799"
+            height="430"
+            alt="WX"
+            draggable="false"
+          />
+        </div>
+
+        <div class="launch__message">
+          <img
+            class="wordmark"
+            src="./assets/wickyx-wordmark.png"
+            width="3360"
+            height="873"
+            alt="WickyX"
+            draggable="false"
+          />
+
+          <div class="status">
+            <span class="status__dot" aria-hidden="true"></span>
+            <h1 id="launch-title" data-i18n="status">Coming soon</h1>
+          </div>
+
+          <p class="tagline" data-i18n="tagline">Next-Gen Social Media</p>
+          <p class="intro" data-i18n="intro">
+            Create, connect, and belong in one shared experience.
+          </p>
+
+          <div class="platforms" aria-label="WickyX platforms">
+            <span
+              class="platform-icon"
+              role="img"
+              aria-label="Web"
+              title="Web"
+              data-i18n-label="web"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="12" r="9"></circle>
+                <path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"></path>
+              </svg>
+            </span>
+            <span
+              class="platform-icon"
+              role="img"
+              aria-label="Desktop"
+              title="Desktop"
+              data-i18n-label="desktop"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="13" rx="2"></rect>
+                <path d="M8 21h8M12 17v4"></path>
+              </svg>
+            </span>
+            <span
+              class="platform-icon platform-icon--android"
+              role="img"
+              aria-label="Android"
+              title="Android"
+              data-i18n-label="android"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M17.52 14.3c-.59-.01-1.07-.49-1.07-1.08 0-.59.48-1.07 1.07-1.07.59 0 1.07.48 1.07 1.07 0 .59-.48 1.08-1.07 1.08zm-11.04 0c-.59-.01-1.07-.49-1.07-1.08 0-.59.48-1.07 1.07-1.07.59 0 1.07.48 1.07 1.07 0 .59-.48 1.08-1.07 1.08zm11.23-5.38 1.72-2.98a.56.56 0 1 0-.97-.57L16.71 8.4A9.27 9.27 0 0 0 12 7.07c-1.73 0-3.34.53-4.7 1.33L5.55 5.38a.56.56 0 1 0-.97.57L6.3 8.93c-2.83 1.7-4.74 4.85-5.11 8.57h21.62c-.37-3.72-2.28-6.87-5.1-8.58z"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="platform-icon platform-icon--apple"
+              role="img"
+              aria-label="iOS"
+              title="iOS"
+              data-i18n-label="ios"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 4.17c.66-.81 1.11-1.93.99-3.06-.96.04-2.13.64-2.82 1.45-.6.69-1.12 1.83-.98 2.94 1.07.08 2.15-.52 2.81-1.33z"
+                ></path>
+              </svg>
+            </span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <label class="language-picker">
+        <span class="sr-only">Language</span>
+        <select id="language" aria-label="Choose language">
+          <option value="en">EN</option>
+          <option value="ar">AR</option>
+          <option value="es">ES</option>
+          <option value="tr">TR</option>
+        </select>
+      </label>
+
+      <span class="site-footer__divider" aria-hidden="true"></span>
+      <span>© <span id="year"></span> WickyX</span>
+    </footer>
+
+    <div class="sr-only" id="language-status" aria-live="polite"></div>
+
+    <noscript>
+      <div class="noscript">
+        WickyX is coming soon. Enable JavaScript for the full experience.
+      </div>
+    </noscript>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>

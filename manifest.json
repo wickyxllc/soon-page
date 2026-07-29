@@ -1,0 +1,17 @@
+{
+  "name": "WickyX",
+  "short_name": "WickyX",
+  "description": "WickyX is coming soon.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#030507",
+  "theme_color": "#050b11",
+  "icons": [
+    {
+      "src": "./assets/wickyx-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
